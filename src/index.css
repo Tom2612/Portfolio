@@ -1,12 +1,12 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  /* min-width: 320px; */
-  /* min-height: 100vh; */
+  min-width: 320px;
+  min-height: 100vh;
   background-image: linear-gradient(45deg, #C9EBF9 0 20%, #B6DCEF 0 40%, #5A88C1 0 60%, #176BA9 0 80%, #062343 0 100%);
   color: #fff;
   font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -21,3 +21,6 @@ nav {
 nav li {
   list-style: none;
 }
+.desktop-hide {
+  display: none;
+} */
