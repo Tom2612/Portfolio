@@ -1,0 +1,12 @@
+.card-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #062343;
+}
+p {
+    line-height: 1.5rem;
+    color: #606060;
+    margin-bottom: 1rem;
+}
