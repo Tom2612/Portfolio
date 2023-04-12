@@ -1,5 +1,4 @@
 import React from 'react';
-import './Skills.css';
 import { IconDeviceDesktop, IconDeviceMobile, IconMessageCircle } from '@tabler/icons-react';
 
 export default function Skills() {

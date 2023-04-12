@@ -60,3 +60,28 @@ p {
   line-height: 1.5rem;
   list-style: circle inside;
 }
+footer {
+  color: #C9EBF9;
+  background-color: #062343;
+}
+.section-top {
+  padding-top: 20px;
+  text-align: center;
+}
+.section-top li {
+  line-height: 2rem;
+}
+.section-bottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.copyright {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: #C9EBF9;
+}

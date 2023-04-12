@@ -1,6 +1,5 @@
 import React from 'react';
 import { IconBattery1, IconBattery3, IconBattery4 } from '@tabler/icons-react';
-import './Tools.css'
 
 export default function Tools() {
   return (
