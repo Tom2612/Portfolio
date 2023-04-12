@@ -8,7 +8,7 @@ export default function Skills() {
         <h2 className='card-title'>My Skills</h2>
 
         <div className='skill'>
-            <div className='skill-title'>
+            <div className='card-head'>
                 <h3>Web Development</h3>
                 <IconDeviceDesktop size={26} color='#5A88C1'/>
             </div>
@@ -19,7 +19,7 @@ export default function Skills() {
         </div>
 
         <div className='skill'>
-            <div className='skill-title'>
+            <div className='card-head'>
                 <h3>Mobile-first</h3>
                 <IconDeviceMobile size={26} color='#5A88C1'/>
             </div>
@@ -30,7 +30,7 @@ export default function Skills() {
         </div>
 
         <div className='skill'>
-            <div className='skill-title'>
+            <div className='card-head'>
                 <h3>Communication</h3>
                 <IconMessageCircle size={26} color='#5A88C1'/>
             </div>

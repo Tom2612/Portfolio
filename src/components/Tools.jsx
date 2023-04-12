@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { IconBattery1, IconBattery3, IconBattery4 } from '@tabler/icons-react';
+import './Tools.css'
 
 export default function Tools() {
   return (
@@ -6,7 +8,10 @@ export default function Tools() {
         <h2 className='card-title'>My Tools</h2>
 
         <div className='tool'>
-            <h3>Competent</h3>
+            <div className='card-head'>
+                <h3>Competent</h3>
+                <IconBattery4 size={30} color='#5A88C1'/>
+            </div>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -18,7 +23,10 @@ export default function Tools() {
         </div>
 
         <div className='tool'>
-            <h3>Basic</h3>
+            <div className='card-head'>
+                <h3>Basic</h3>
+                <IconBattery3 size={30} color='#5A88C1'/>
+            </div>
             <ul>
                 <li>Jest</li>
                 <li>D3/Tableau</li>
@@ -29,7 +37,10 @@ export default function Tools() {
         </div>
 
         <div className='tool'>
-            <h3>Developing</h3>
+            <div className='card-head'>
+                <h3>Developing</h3>
+                <IconBattery1 size={30} color='#5A88C1'/>
+            </div>
             <ul>
                 <li>Cypress</li>
                 <li>PostgreSQL</li>
