@@ -35,8 +35,28 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.card-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #062343;
+}
 
 .about {
   margin: -10vh auto 0;
   border-radius: 10px;
+}
+.skill {
+  margin-bottom: 40px;
+}
+.tool ul {
+  margin-bottom: 30px;
+}
+
+.tool li {
+  padding-left: 20px;
+  color: #606060;
+  line-height: 1.5rem;
+  list-style: circle inside;
 }
