@@ -11,17 +11,17 @@ export default function Home() {
             <h2>Full-Stack Developer</h2>
         </div>
 
-        <div className='about'>
+        <div className='card about'>
             <About />
 
         </div>
 
-        <div className='skills'>
+        <div className='card skills'>
             <Skills />
 
         </div>
 
-        <div className='tools'>
+        <div className='card tools'>
             <Tools />
             
         </div>

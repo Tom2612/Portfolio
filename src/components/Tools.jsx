@@ -3,7 +3,7 @@ import React from 'react'
 export default function Tools() {
   return (
     <>
-        <h2>My Tools</h2>
+        <h2 className='card-title'>My Tools</h2>
 
         <div className='tool'>
             <h3>Competent</h3>

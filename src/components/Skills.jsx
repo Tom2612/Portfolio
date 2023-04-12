@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Skills.css';
 
 export default function Skills() {
   return (
     <>
-        <h2>My Skills</h2>
+        <h2 className='card-title'>My Skills</h2>
 
         <div className='skill'>
             <h3>Web Development</h3>
