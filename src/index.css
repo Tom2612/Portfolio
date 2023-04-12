@@ -85,3 +85,12 @@ footer a {
   text-decoration: none;
   color: #C9EBF9;
 }
+
+@media (min-width: 576px) {
+  .home {
+    height: 110vh;
+  }
+  .card {
+    width: 80%;
+  }
+}

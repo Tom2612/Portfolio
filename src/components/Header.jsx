@@ -3,7 +3,6 @@ import './Header.css';
 import { IconX, IconMenu2 } from '@tabler/icons-react';
 
 export default function Header() {
-  // const [menu, setMenu] = useState(false);
   const [visible, setVisible] = useState('hide');
 
   const handleMenuControl = () => {
