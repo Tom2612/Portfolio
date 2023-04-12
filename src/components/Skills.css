@@ -1,4 +1,9 @@
-.skill h3 {
-    /* border-bottom: 1px solid black; */
-    margin-bottom: 10px;
+.skill {
+    margin-bottom: 40px;
+}
+
+.skill-title {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
