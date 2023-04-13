@@ -93,4 +93,33 @@ footer a {
   .card {
     width: 80%;
   }
+  .card-title {
+    border-bottom : none;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+  }
+  .skill {
+    flex-grow: 1;
+  }
+  .card-head {
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+  }
+  .card-head h3 {
+    margin-right: 10px;
+  }
+
+  .skills {
+    width: 80vw;
+    margin: 30px auto 0;
+  }
+  .tools {
+    margin: 30px auto 0;
+  }
 }
