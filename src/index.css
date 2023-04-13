@@ -47,6 +47,22 @@ p {
   margin: -10vh auto 0;
   border-radius: 10px;
 }
+.image-container {
+  width: 293px;
+  height: 375px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+.image-container img {
+  scale: 0.5;
+  transform: translateX(-1383px) translateY(-643px);
+  z-index: -1000;
+}
+.contact-btn {
+  border: 1px solid black;
+}
 .skill {
   margin-bottom: 40px;
 }
@@ -90,6 +106,27 @@ footer a {
   .home {
     height: 110vh;
   }
+  .about-container {
+    display: flex;
+    flex: 1 1;
+  }
+
+  .image-container {
+    min-width: 293px;
+    height: 375px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: scale-down;
+    overflow: hidden;
+    margin-right: 30px;
+  }
+
+  .image-container img {
+    scale: 0.5;
+    transform: translateX(-1383px) translateY(-643px);
+    z-index: -1000;
+  }
+
   .card {
     width: 80%;
   }
@@ -121,5 +158,8 @@ footer a {
   }
   .tools {
     margin: 30px auto 0;
+  }
+  .tools ul {
+    text-align: left;
   }
 }
