@@ -1,4 +1,8 @@
 @media(min-width: 576px) {
+    nav {
+        z-index: 1000;
+        position: fixed;
+    }
     .desktop-view {
         height: 5vh;
         width: 100%;
