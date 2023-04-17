@@ -36,9 +36,9 @@ export default function Header() {
           </div>
           <h1>Tom Powell</h1>
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/projects'>Projects</Link></li>
+            <li><Link to='/'>Contact</Link></li>
           </ul>
         </div>
       </div>
