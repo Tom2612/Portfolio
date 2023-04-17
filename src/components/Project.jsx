@@ -10,6 +10,12 @@ export default function Project() {
                 vacancies filled in the post-covid landscape.
             </p>
             <p>
+                Groups can make a profile, post/update upcoming concerts, their requirements and whether they'll offer financial help to players.
+            </p>
+            <p>
+                Players can filter results based on location, instrument and date added. 
+            </p>
+            <p>
                 This is a full CRUD application that incorporates user authentication, RESTful API design and error handling. It is also fully end-to-end tested.
             </p>
             <p>
