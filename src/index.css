@@ -61,6 +61,8 @@ p {
   z-index: -1000;
 }
 .contact-btn {
+  display: block;
+  width: 100%;
   border: 1px solid black;
 }
 .skill {
