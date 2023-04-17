@@ -12,6 +12,10 @@ p {
   color: #606060;
   margin-bottom: 1rem;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .home {
   height: 100vh;
   color: #fff;
