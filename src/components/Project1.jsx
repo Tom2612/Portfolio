@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import '../css/image.css';
+import image2 from '../images/IMG-20211109-WA0002.jpg';
 
-export default function Project() {
+export default function Project1() {
+    const [emblaRef] = useEmblaCarousel();
+
   return (
     <div>
         <h2>OpenGroups</h2>
+        <div className='project-container'>
+            <img src={image2} />
+        </div>
         <div>
             <p>
                 The only all-in-one platform that connects amateur and professional musicians to orchestras that need
