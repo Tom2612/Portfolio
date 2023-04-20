@@ -38,7 +38,7 @@ export default function Header() {
           <ul>
             <li onClick={() => setVisible('hide')}><Link to='/'>Home</Link></li>
             <li onClick={() => setVisible('hide')}><Link to='/projects'>Projects</Link></li>
-            <li onClick={() => setVisible('hide')}><Link to='/'>Contact</Link></li>
+            <li onClick={() => setVisible('hide')}><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
       </div>
