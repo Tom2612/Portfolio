@@ -1,17 +1,21 @@
 import React from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import '../css/image.css';
-import image2 from '../images/IMG-20211109-WA0002.jpg';
+
+import EmblaCarousel from './EmblaCarousel';
+import '../css/project1.css';
+import image1 from '../images/OpenGroups1.jpg';
+import image2 from '../images/OpenGroups2.png';
+import image3 from '../images/OpenGroups3.png';
+import image4 from '../images/OpenGroups4.png';
+import image5 from '../images/OpenGroups5.png';
+import image6 from '../images/OpenGroups6.png';
+import image7 from '../images/OpenGroups7.png';
 
 export default function Project1() {
-    const [emblaRef] = useEmblaCarousel();
 
   return (
-    <div>
+    <div className='project--container'>
         <h2>OpenGroups</h2>
-        <div className='project-container'>
-            <img src={image2} />
-        </div>
+        <EmblaCarousel />
         <div>
             <p>
                 The only all-in-one platform that connects amateur and professional musicians to orchestras that need
