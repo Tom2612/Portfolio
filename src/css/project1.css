@@ -1,15 +1,19 @@
 .project--container {
-    margin-top: 200px;
-    /* max-width: 350px; */
+    margin-bottom: 20px;
+}
+.project--container h2 {
+    margin-bottom: 20px;
 }
 .project-container img {
     max-width: 100%;
     max-height: auto;
-    
+}
+.project--info {
+    margin-top: 20px;
 }
 
 .embla {
-    height: 350px;
+    height: auto;
     position: relative;
     overflow: hidden;
 }
@@ -23,6 +27,12 @@
     margin-right: 20px;
     flex: 0 0 80%;
     min-width: 0;
+}
+.embla__slide img {
+    /* display: block; */
+    /* height: auto; */
+    width: 100%;
+    object-fit: cover;
 }
 .embla__button {
     z-index: 1;
@@ -38,4 +48,20 @@
 }
 .embla__next {
     right: 1.6rem;
+}
+
+/* Collapse Styles */
+.content {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.content-parent {
+    height: 0px;
+    overflow: hidden;
+    transition: height ease-in-out 0.9s;
+}
+.content-show {
+    height: 300px;
+    /* overflow: scroll; */
 }

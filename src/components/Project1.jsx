@@ -1,6 +1,7 @@
 import React from 'react';
 
 import EmblaCarousel from './EmblaCarousel';
+import Collapse from './Collapse';
 import '../css/project1.css';
 import image1 from '../images/OpenGroups1.jpg';
 import image2 from '../images/OpenGroups2.png';
@@ -16,7 +17,9 @@ export default function Project1() {
     <div className='project--container'>
         <h2>OpenGroups</h2>
         <EmblaCarousel images={[image1, image2, image3, image4, image5, image6, image7]}/>
-        <div>
+       
+        <div className='project--info'>
+            <Collapse label='The Project'>
             <p>
                 The only all-in-one platform that connects amateur and professional musicians to orchestras that need
                 vacancies filled in the post-covid landscape.
@@ -24,9 +27,12 @@ export default function Project1() {
             <p>
                 Groups can make a profile, post/update upcoming concerts, their requirements and whether they'll offer financial help to players.
             </p>
+            
             <p>
                 Players can filter results based on location, instrument and date added. 
             </p>
+            </Collapse>
+            <Collapse label='Inspiration'>
             <p>
                 This is a full CRUD application that incorporates user authentication, RESTful API design and error handling. It is also fully end-to-end tested.
             </p>
@@ -34,6 +40,8 @@ export default function Project1() {
                 I built this because there currently is not such a platform available to cater specifically for musicians and their needs.
                 The scope of the project is much larger though, and in the future I hope to expand the reach to choirs, smaller groups and even non-classical musicians.
             </p>
+            </Collapse>
+            <Collapse label='Technology'>
             <div>
                 <h4>Technology used: </h4>
                 <ul>
@@ -41,6 +49,7 @@ export default function Project1() {
                     <li>Cypress testing</li>
                 </ul>
             </div>
+            </Collapse>
         </div>
     </div>
   )
