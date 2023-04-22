@@ -15,7 +15,7 @@ export default function Project1() {
   return (
     <div className='project--container'>
         <h2>OpenGroups</h2>
-        <EmblaCarousel />
+        <EmblaCarousel images={[image1, image2, image3, image4, image5, image6, image7]}/>
         <div>
             <p>
                 The only all-in-one platform that connects amateur and professional musicians to orchestras that need
