@@ -52,16 +52,18 @@
 
 /* Collapse Styles */
 .content {
-    border: 1px solid black;
-    padding: 0.5rem;
+    padding: 0 20px;
     border-radius: 5px;
 }
 .content-parent {
     height: 0px;
     overflow: hidden;
-    transition: height ease-in-out 0.9s;
+    transition: all ease 0.3s;
 }
-.content-show {
-    height: 300px;
-    /* overflow: scroll; */
+.content-label {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-around;
 }
