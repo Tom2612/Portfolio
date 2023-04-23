@@ -19,7 +19,7 @@ export default function Project1() {
         <EmblaCarousel images={[image1, image2, image3, image4, image5, image6, image7]}/>
        
         <div className='project--info'>
-            <Collapse label='The Project'>
+            <Collapse label='Project'>
             <p>
                 The only all-in-one platform that connects amateur and professional musicians to orchestras that need
                 vacancies filled in the post-covid landscape.

@@ -1,7 +1,7 @@
 import React from 'react';
 import EmblaCarousel from './EmblaCarousel';
 import Collapse from './Collapse';
-import '../css/project1.css';
+
 import image1 from '../images/BookReader0.png'
 import image2 from '../images/BookReader1.png'
 import image3 from '../images/BookReader2.png'
@@ -14,7 +14,7 @@ export default function Project2() {
         <EmblaCarousel images={[image1, image2, image3, image4]}/>
        
         <div className='project--info'>
-            <Collapse label='The Project'>
+            <Collapse label='Project'>
             <p>
                 A simple, minimalist platform that allows users to record books and give them ratings.
             </p>
