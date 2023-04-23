@@ -34,6 +34,10 @@
     list-style: none;
     line-height: 1.5rem;
 }
+.repo-link a {
+    display: inline;
+    color: #176BA9;
+}
 
  /* Carousel Styles */
 .embla {

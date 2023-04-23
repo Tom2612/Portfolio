@@ -21,6 +21,9 @@ export default function Project2() {
             <p>
                 Whislt similar sites exist, they often feel bloated with extra features that take away from the core aim: Reading.
             </p>
+            <p>
+                Check out the <span className='repo-link'><a href='https://github.com/Tom2612/BookReadingMERN'>Repo</a></span>.
+            </p>
             </Collapse>
             <Collapse label='Inspiration'>
             <p>

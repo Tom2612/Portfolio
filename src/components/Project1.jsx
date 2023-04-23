@@ -30,6 +30,9 @@ export default function Project1() {
             <p>
                 Players can filter results based on location, instrument and date added. 
             </p>
+            <p>
+                Check out the <span className='repo-link'><a href='https://github.com/Tom2612/orch-site'>Repo</a></span>.
+            </p>
             </Collapse>
             <Collapse label='Inspiration'>
             <p>
