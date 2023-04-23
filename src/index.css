@@ -117,23 +117,6 @@ footer li, footer a {
   color: #C9EBF9;
 }
 
-/* Project Styles */
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(45deg, #C9EBF9 0 20%, #B6DCEF 0 40%, #5A88C1 0 60%, #176BA9 0 80%, #062343 0 100%);
-}
-.projects-card {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 20px 10px;
-  background-color: #fff;
-}
-
  /* Contacts Styles */
 
 .contact-page {

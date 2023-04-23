@@ -2,7 +2,6 @@ import React from 'react';
 
 import EmblaCarousel from './EmblaCarousel';
 import Collapse from './Collapse';
-import '../css/project1.css';
 import image1 from '../images/OpenGroups1.jpg';
 import image2 from '../images/OpenGroups2.png';
 import image3 from '../images/OpenGroups3.png';
