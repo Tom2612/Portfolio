@@ -37,13 +37,12 @@ export default function Project1() {
                 This is a full CRUD application that incorporates user authentication, RESTful API design and error handling. It is also fully end-to-end tested.
             </p>
             <p>
-                I built this because there currently is not such a platform available to cater specifically for musicians and their needs.
+                I built this because currently there is no such platform available to cater specifically to musicians and their needs.
                 The scope of the project is much larger though, and in the future I hope to expand the reach to choirs, smaller groups and even non-classical musicians.
             </p>
             </Collapse>
             <Collapse label='Technology'>
             <div>
-                <h4>Technology used: </h4>
                 <ul>
                     <li>MERN stack</li>
                     <li>Cypress testing</li>

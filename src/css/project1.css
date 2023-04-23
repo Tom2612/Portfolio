@@ -11,6 +11,10 @@
 .project--info {
     margin-top: 20px;
 }
+.project--info li {
+    list-style: none;
+    line-height: 1.5rem;
+}
 
 .embla {
     height: auto;
@@ -29,8 +33,6 @@
     min-width: 0;
 }
 .embla__slide img {
-    /* display: block; */
-    /* height: auto; */
     width: 100%;
     object-fit: cover;
 }
@@ -40,8 +42,8 @@
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    background-color: rgb(0, 0, 0, 0.5);
-    backdrop-filter: saturate(80%) blur(10px);
+    border: none;
+    background: none;
 }
 .embla__prev {
     left: 1.6rem;
@@ -56,7 +58,6 @@
     border-radius: 5px;
 }
 .content-parent {
-    height: 0px;
     overflow: hidden;
     transition: all ease 0.3s;
 }

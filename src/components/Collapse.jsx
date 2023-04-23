@@ -9,10 +9,6 @@ export default function Collapse(props) {
         setOpen(!open);
     }
 
-    if (contentRef.current) {
-        console.log(contentRef.current.clientHeight)
-    }
-
   return (
     <div>
         <h3 onClick={toggle} className='content-label'>

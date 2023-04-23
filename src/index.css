@@ -17,6 +17,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+li {
+  color: #606060;
+}
 .home {
   height: 100vh;
   color: #fff;
