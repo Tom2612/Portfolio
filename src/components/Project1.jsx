@@ -15,7 +15,7 @@ export default function Project1() {
 
   return (
     <div className='project--container'>
-        <h2>OpenGroups</h2>
+        <h2><a href='https://github.com/Tom2612/orch-site'>OpenGroups</a></h2>
         <EmblaCarousel images={[image1, image2, image3, image4, image5, image6, image7]}/>
        
         <div className='project--info'>

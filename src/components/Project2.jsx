@@ -10,7 +10,7 @@ import image4 from '../images/BookReader3.png'
 export default function Project2() {
   return (
     <div className='project--container'>
-        <h2>Book Reading Tracker</h2>
+        <h2><a href='https://bookreadingtracker.onrender.com/login'>Book Reading Tracker</a></h2>
         <EmblaCarousel images={[image1, image2, image3, image4]}/>
        
         <div className='project--info'>
@@ -19,7 +19,7 @@ export default function Project2() {
                 A simple, minimalist platform that allows users to record books and give them ratings.
             </p>
             <p>
-                Wislt similar sites exist, they often times feel bloated with extra features that take away from the core aim: Reading.
+                Whislt similar sites exist, they often feel bloated with extra features that take away from the core aim: Reading.
             </p>
             </Collapse>
             <Collapse label='Inspiration'>

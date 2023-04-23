@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { IconBrandGithub, IconBrandLinkedin, IconMail, IconCopyright } from '@tabler/icons-react';
 
 export default function Footer() {
@@ -6,9 +7,9 @@ export default function Footer() {
     <footer>
         <div className='section-top'>
             <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/projects'>Projects</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
             </ul>
         </div>
         <div className='section-bottom'>

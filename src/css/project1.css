@@ -1,5 +1,5 @@
 .project--container {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .project--container h2 {
     margin-bottom: 20px;
@@ -27,7 +27,6 @@
 }
 
 .embla__slide {
-    border: 1px solid black;
     margin-right: 20px;
     flex: 0 0 80%;
     min-width: 0;

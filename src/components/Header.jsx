@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import '../css/Header.css';
 import { IconX, IconMenu2 } from '@tabler/icons-react';
 
 export default function Header() {
