@@ -14,7 +14,7 @@ export default function Skills() {
                 </div>
                 <p>
                     Being incredibly self-motivated to learn and keep up to date, I make sure I use the best tools available to create 
-                    full-stack applications.
+                    full-stack applications. I am fully self taught, check out my projects.
                 </p>
             </div>
 

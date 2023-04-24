@@ -1,12 +1,11 @@
 import React from 'react';
-import image1 from '../images/MicrosoftTeams-image.png';
 import image2 from '../images/IMG-20211109-WA0002.jpg';
+import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
     <>
         <h2 className='card-title'>About me</h2>
-        {/* <img src={image1} alt='Profile Photo' /> */}
         
         <div className='about-container'>
           <div className='image-container'><img src={image2} alt='Profile Photo' /></div>
@@ -16,9 +15,9 @@ export default function About() {
             </p>
             <p>
                 I specialise in the MERN stack and follow a test driven approach to my applications. 
-                Despite this, I am always looking for new things to learn to keep up to date with current technologies!
+                I am always looking for new things to learn to keep up to date with current technologies!
             </p>
-            <span className='contact-btn'>Contact me</span>
+            <span className='contact-btn'><Link to='/contact'>Contact me</Link></span>
           </div>
         </div>
     </>
