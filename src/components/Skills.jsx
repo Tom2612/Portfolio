@@ -14,7 +14,7 @@ export default function Skills() {
                 </div>
                 <p>
                     Being incredibly self-motivated to learn and keep up to date, I make sure I use the best tools available to create 
-                    full-stack applications. I am fully self taught, check out my projects.
+                    full-stack applications. I am fully self-taught, check out my projects.
                 </p>
             </div>
 
@@ -36,7 +36,7 @@ export default function Skills() {
                 </div>
                 <p>
                     Making sure I fully understand or that I can explain what I am doing is paramount to the success of my projects. 
-                    With so many years in education, I can break down concepts and get them accross regarldess of my audience.
+                    With so many years in education, I can break down concepts and get them accross regardless of my audience.
                 </p>
             </div>
         </div>
