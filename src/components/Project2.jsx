@@ -2,16 +2,17 @@ import React from 'react';
 import EmblaCarousel from './EmblaCarousel';
 import Collapse from './Collapse';
 
-import image1 from '../images/BookReader0.png'
-import image2 from '../images/BookReader1.png'
-import image3 from '../images/BookReader2.png'
-import image4 from '../images/BookReader3.png'
+import image1 from '../images/BookReader0.png';
+import image2 from '../images/BookReader1.png';
+import image3 from '../images/BookReader2.png';
+import image4 from '../images/BookReader3.png';
+import image5 from '../images/BookReader4.png';
 
 export default function Project2() {
   return (
     <div className='project--container'>
         <h2><a href='https://bookreadingtracker.onrender.com/login'>Book Reading Tracker</a></h2>
-        <EmblaCarousel images={[image1, image2, image3, image4]}/>
+        <EmblaCarousel images={[image1, image2, image3, image4, image5]}/>
        
         <div className='project--info'>
             <Collapse label='Project'>
@@ -36,7 +37,10 @@ export default function Project2() {
             <Collapse label='Technology'>
             <div>
                 <ul>
-                    <li>MERN stack</li>
+                    <li>MongoDB</li>
+                    <li>Node/Express</li>
+                    <li>React (Vite)</li>
+                    <li>MantineUI</li>
                     <li>Deployed on Render</li>
                 </ul>
             </div>
