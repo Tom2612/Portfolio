@@ -11,11 +11,15 @@ export default function About() {
           <div className='image-container'><img src={image2} alt='Profile Photo' /></div>
           <div>
             <p>
-              I have been a teacher for 7 years but I am now looking for my next challenge and to change career into web devlopment!
+              As a teacher of 7 years, learning comes very naturally to me. 
+              Whilst working as head of department in one of the most successful international schools in Asia, 
+              I started web development as a hobby to 'survive' the strict lockdowns during the COVID-19 pandemic. 
+              This very quickly became a passion and something I could see myself doing long-term.
+              I am now pursuing a career change into tech.
             </p>
             <p>
-                I specialise in the MERN stack and follow a test driven approach to my applications. 
-                I am always looking for new things to learn to keep up to date with current technologies!
+                I am now able to build full-stack applications using a test-driven approach.
+                With my life-long learner mindset, I am always trying to keep up to date with current technologies and acquire new skills!
             </p>
             <span className='contact-btn'><Link to='/contact'>Contact me</Link></span>
           </div>

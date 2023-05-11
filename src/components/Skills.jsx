@@ -35,8 +35,9 @@ export default function Skills() {
                     <IconMessageCircle size={26} color='#5A88C1'/>
                 </div>
                 <p>
-                    Making sure I fully understand or that I can explain what I am doing is paramount to the success of my projects. 
-                    With so many years in education, I can break down concepts and get them accross regardless of my audience.
+                    Making sure I fully understand or that I can explain what I am doing is paramount to the success of my projects.
+                    I am used to working in teams and collaborating - this is where I thrive. 
+                    With so many years in education, I can break down concepts and get them accross.
                 </p>
             </div>
         </div>
