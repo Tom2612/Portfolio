@@ -2,7 +2,7 @@ import React from 'react';
 
 import EmblaCarousel from './EmblaCarousel';
 import Collapse from './Collapse';
-import image1 from '../images/opengroups1.jpg';
+import image1 from '../images/OpenGroups1.JPG';
 import image2 from '../images/OpenGroups2.png';
 import image3 from '../images/OpenGroups3.png';
 import image4 from '../images/OpenGroups4.png';
