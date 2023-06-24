@@ -3,12 +3,12 @@ import React from 'react';
 import EmblaCarousel from './EmblaCarousel';
 import Collapse from './Collapse';
 import image1 from '../images/OpenGroups1.JPG';
-import image2 from '../images/OpenGroups2.png';
-import image3 from '../images/OpenGroups3.png';
-import image4 from '../images/OpenGroups4.png';
-import image5 from '../images/OpenGroups5.png';
-import image6 from '../images/OpenGroups6.png';
-import image7 from '../images/OpenGroups7.png';
+import image2 from '../images/OpenGroups2.PNG';
+import image3 from '../images/OpenGroups3.PNG';
+import image4 from '../images/OpenGroups4.PNG';
+import image5 from '../images/OpenGroups5.PNG';
+import image6 from '../images/OpenGroups6.PNG';
+import image7 from '../images/OpenGroups7.PNG';
 
 export default function Project1() {
 
