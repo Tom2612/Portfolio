@@ -2,11 +2,11 @@ import React from 'react';
 import EmblaCarousel from './EmblaCarousel';
 import Collapse from './Collapse';
 
-import image1 from '../images/BookReader0.PNG';
-import image2 from '../images/BookReader1.PNG';
-import image3 from '../images/BookReader2.PNG';
-import image4 from '../images/BookReader3.PNG';
-import image5 from '../images/BookReader4.PNG';
+import image1 from '../images/BookReader0.png';
+import image2 from '../images/BookReader1.png';
+import image3 from '../images/BookReader2.png';
+import image4 from '../images/BookReader3.png';
+import image5 from '../images/BookReader4.png';
 
 export default function Project2() {
   return (
